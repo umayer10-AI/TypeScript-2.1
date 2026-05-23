@@ -14,3 +14,5 @@ interface User {
 }
 
 const a = (obj: User) => {}
+
+a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
