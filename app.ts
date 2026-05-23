@@ -51,3 +51,8 @@
 // }
 
 // b({age:21, name: "umayer"})
+
+type v = number | string;
+
+let a:v;
+a = "hello"
