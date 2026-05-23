@@ -52,7 +52,13 @@
 
 // b({age:21, name: "umayer"})
 
-type v = number | string;
+// type v = number | string;
 
-let a:v;
-a = "hello"
+// let a:v;
+// a = "hello"
+
+type v = string | number
+
+function dd(obj: v){}
+
+dd(10)
