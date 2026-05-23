@@ -20,21 +20,34 @@
 
 // a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
 
-interface User {
-    name: string;
-    email: string;
-    password: string;
-}
-interface Admin extends User {
-    age: number,
-    role: boolean,
-}
-interface My extends Admin {
-    salary?: number
-}
+// interface User {
+//     name: string;
+//     email: string;
+//     password: string;
+// }
+// interface Admin extends User {
+//     age: number,
+//     role: boolean,
+// }
+// interface My extends Admin {
+//     salary?: number
+// }
 
-const b = (obj: My) => {
-    
-}
+// const b = (obj: My) => {
 
-b({name:"Umayer",email:'umayer@gmail.com',password:"abcd",age:21,role:false})
+// }
+
+// b({name:"Umayer",email:'umayer@gmail.com',password:"abcd",age:21,role:false})
+
+// interface a {
+//     age: number
+// }
+// interface a {
+//     name: string;
+// }
+
+// const b = (obj: a) => {
+
+// }
+
+// b({age:21, name: "umayer"})
