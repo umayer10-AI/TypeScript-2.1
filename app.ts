@@ -7,15 +7,16 @@
 // // function dd(a:number, b:number): void {}
 // const b =  (a:number, b:number): void => {}
 
-interface User {
-    name: string,
-    email: string,
-    password: string,
-    age?: number
-}
+// interface User {
+//     name: string,
+//     email: string,
+//     password: string,
+//     age?: number
+// }
 
-const a = (obj: User) => {
-    // obj.email
-}
+// const a = (obj: User) => {
+//     // obj.email
+// }
 
-a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
+// a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
+
