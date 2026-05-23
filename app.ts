@@ -63,12 +63,25 @@
 
 // dd(10)
 
-type User = {
+// type User = {
+//     name: string,
+//     email: string,
+// }
+
+// type Admin = User & {
+//     getDetails(user: string): void
+// }
+
+// const b = (a: Admin): void => {
+//     a.getDetails
+// }
+
+interface User {
     name: string,
     email: string,
 }
 
-type Admin = User & {
+interface Admin extends User {
     getDetails(user: string): void
 }
 
