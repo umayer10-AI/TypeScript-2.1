@@ -25,14 +25,16 @@ interface User {
     email: string;
     password: string;
 }
-
 interface Admin extends User {
     age: number,
     role: boolean,
 }
+interface My extends Admin {
+    salary?: number
+}
 
-const b = (obj: Admin) => {
-
+const b = (obj: My) => {
+    
 }
 
 b({name:"Umayer",email:'umayer@gmail.com',password:"abcd",age:21,role:false})
