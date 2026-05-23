@@ -57,8 +57,21 @@
 // let a:v;
 // a = "hello"
 
-type v = string | number
+// type v = string | number
 
-function dd(obj: v){}
+// function dd(obj: v){}
 
-dd(10)
+// dd(10)
+
+type User = {
+    name: string,
+    email: string,
+}
+
+type Admin = User & {
+    getDetails(user: string): void
+}
+
+const b = (a: Admin): void => {
+    a.getDetails
+}
