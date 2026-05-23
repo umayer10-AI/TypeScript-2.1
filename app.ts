@@ -20,3 +20,17 @@
 
 // a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
 
+interface User {
+    name: string;
+    email: string;
+    password: string;
+}
+
+interface Admin extends User {
+    age: number,
+    role: boolean,
+}
+
+const b = (obj: Admin) => {
+    
+}
