@@ -67,13 +67,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // const b = (a: Admin): void => {
 //     a.getDetails
 // }
-class Device {
-    name = "hello";
-    price = 12000;
-    category = "Digital";
+// class Device {
+//     name = "hello";
+//     price = 12000;
+//     category = "Digital";
+// }
+// let d1 = new Device()
+// let d2 = new Device()
+class Bottle {
+    redius = 120;
+    price = 100;
+    color = "White";
 }
-let d1 = new Device();
-let d2 = new Device();
-
-console.log(d2)
+let d1 = new Bottle;
+console.log(d1)
 //# sourceMappingURL=app.js.map
