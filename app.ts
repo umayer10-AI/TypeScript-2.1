@@ -76,15 +76,15 @@
 //     a.getDetails
 // }
 
-interface User {
-    name: string,
-    email: string,
-}
+// interface User {
+//     name: string,
+//     email: string,
+// }
 
-interface Admin extends User {
-    getDetails(user: string): void
-}
+// interface Admin extends User {
+//     getDetails(user: string): void
+// }
 
-const b = (a: Admin): void => {
-    a.getDetails
-}
+// const b = (a: Admin): void => {
+//     a.getDetails
+// }
