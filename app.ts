@@ -32,5 +32,7 @@ interface Admin extends User {
 }
 
 const b = (obj: Admin) => {
-    
+
 }
+
+b({name:"Umayer",email:'umayer@gmail.com',password:"abcd",age:21,role:false})

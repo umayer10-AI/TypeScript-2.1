@@ -7,4 +7,5 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const b = (obj) => {
 };
+b({ name: "Umayer", email: 'umayer@gmail.com', password: "abcd", age: 21, role: false });
 //# sourceMappingURL=app.js.map
