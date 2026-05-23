@@ -5,6 +5,8 @@
 // a = true;
 // a = "Umayer Ahamd"
 Object.defineProperty(exports, "__esModule", { value: true });
-const a = (obj) => { };
+const a = (obj) => {
+    // obj.email
+};
 a({ name: "Umayer", email: 'umayer@gmail.com', password: "abcd" });
 //# sourceMappingURL=app.js.map

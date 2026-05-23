@@ -14,6 +14,8 @@ interface User {
     age?: number
 }
 
-const a = (obj: User) => {}
+const a = (obj: User) => {
+    // obj.email
+}
 
 a({name: "Umayer", email: 'umayer@gmail.com', password: "abcd"})
