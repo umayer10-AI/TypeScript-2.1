@@ -11,6 +11,7 @@ interface User {
     name: string,
     email: string,
     password: string,
+    age?: number
 }
 
 const a = (obj: User) => {}
